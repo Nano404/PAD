@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+/* This is for controlling and changing the design of NAV page */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+/* This is for controlling and changing the design of the background, position of  elements and the font of this page*/
+body, html{
+	
+	padding: 0;
+	margin: 0;
+    font-family: 'Sniglet', cursive;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-image: url(105.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+/* This is for changing the design, color and the background  of the navigation bar*/
+.wrapper2{
+
+    background-color:none;
+    text-align: center;
+    color: honeydew;
+    overflow: hidden;
+    
+}
+/* This is for changing the color, text location and font size  of the navigation bar*/
+.wrapper2 a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #0d0e1141;
+	border-radius: 24px;
+
+    
+}
+/*This is  To change the color and background of the navigation bar text when you point to it with the mouse.*/
+.wrapper2 a:hover{
+
+    background: linear-gradient(-135deg, #f1552d, #4282fa);
+    color: black;
+}
+
+/* This is  To change the text color and background of the navigation bar */
+.wrapper2 nav{
+
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+    background-color: rgba(15, 15, 15, 0.116);
+}
+/*This is To change the size and the space between the navigation bar elements*/
+.wrapper2 nav li{
+
+    width: 160px;
+    margin: 15px;
+    padding: 15px;
+    color: honeydew;
+
+}
+/* To change the header font, font size, color and text location */
+h1{
+	font-weight: normal;
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 500px;
+	color: cyan;
+	text-align: center;
+
+}
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 3,5vw;
+	font-weight: 3;
+	background-color: #000;
+	color: #fff;
+	display: block;
+  border-radius: 24px;
+	
+}
+
+h1:nth-child(2) {
+	position: absolute;
+	background-color: #fff;
+	color: rgb(204, 36, 36);
+	clip-path: inset(-1% -1% 50% -1%);
+}
+
+
+header{
+	height: 160px;
+
+}
+/* to change style of (name, e-mail and message) field title */
+#form{
+	height: 100%;	
+	background-color: #98d5f300;
+	overflow: hidden;
+	position: relative;
+	
+}
+/* to change color of (name, e-mail and message) field title */
+form{
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 40px;
+	color: cyan;
+	position: relative;
+	
+	
+}
+label, input, textarea{
+	display: block;	
+}
+/*To change size of all fields */
+input, textarea{
+	width: 500px;	
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: #676767;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	border: solid 3px #98d5f300;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+}
+
+
+
+/* To give the send botton color */
+
+input[type="submit"]{
+    background: -webkit-linear-gradient(left, #f1552d, #4282fa);
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+	color: white;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 30px;
+	font-size: 1.29em;
+	font-family: 'Sniglet', cursive;
+	
+}
+
+/*label{
+	font-size: 1.5em;
+	margin-top: 20px;
+	padding-left: 20px;
+}*/
+
+
+
+
+/*This is used to change the color and location of the copyright for this page*/
+.F{
+	text-align: center;
+	color: #fff;
+  }
