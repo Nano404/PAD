@@ -1,0 +1,125 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+    border-radius: 24px;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: #232531;
+    
+}
+
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    
+}
+
+h1 {
+	font-size: 8vw;
+	font-weight: 900;
+	background-color: #000;
+	color: #fff;
+	display: block;
+	padding: .5em;
+}
+
+h1:nth-child(2) {
+	position: absolute;
+	background-color: #fff;
+	color: rgb(204, 36, 36);
+	clip-path: inset(-1% -1% 50% -1%);
+}
+
+p {
+	font-size: 2vw;
+	font-weight: 900;
+	margin-top: 1em;
+	text-align: center;
+}
+	span 
+    {
+		display: block;
+		transform: rotate(90deg);
+		margin-top: .25em;
+        color: aqua;
+	}
+
+ 
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    color:rgb(240, 11, 11);
+}
+  /* This is for changing the design, color and the background  of the navigation bar*/
+  .wrapper2{
+
+    background-color:none;
+    text-align: center;
+    color: honeydew;
+    overflow: hidden;
+    
+}
+/* This is for changing the color, text location and font size  of the navigation bar*/
+.wrapper2 a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #0d0e1141;
+    border-radius: 24px;
+
+    
+}
+/*This is  To change the color and background of the navigation bar text when you point to it with the mouse.*/
+.wrapper2 a:hover{
+
+    background: linear-gradient(-135deg, #f1552d, #4282fa);
+    color: black;
+}
+
+  /* This is  To change the text color and background of the navigation bar */
+.wrapper2 nav{
+
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+    background-color: rgba(15, 15, 15, 0.116);
+}
+/*This is To change the size and the space between the navigation bar elements*/
+.wrapper2 nav li{
+
+    width: 160px;
+    margin: 15px;
+    padding: 15px;
+    color: honeydew;
+
+}
+.F{
+    text-align:left;
+  color: #fff;
+  top:700px;
+  font-size: small;
+  }
+  
+  .F{
+  
+    position: relative;
+    text-align:center;
+    font-size: small;
+  }
