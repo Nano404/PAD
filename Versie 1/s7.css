@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+/* This is for controlling and changing the design of NAV on this page */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+/* This is for controlling and changing the design of the background, position of  elements and the font of this page*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding: 0;
+	margin: 0;
+    font-family: 'Sniglet', cursive;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-image: url(105.jpg);
+    background-size: cover;
+  }
+  /* This is for changing the design, color and the background  of the navigation bar*/
+.wrapper2{
+
+    background-color:none;
+    text-align: center;
+    color: honeydew;
+    overflow: hidden;
+    
+}
+/* This is for changing the color, text location and font size  of the navigation bar*/
+.wrapper2 a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #0d0e1141;
+    border-radius: 24px;
+
+    
+}
+/*This is  To change the color and background of the navigation bar text when you point to it with the mouse.*/
+.wrapper2 a:hover{
+
+    background: linear-gradient(-135deg, #f1552d, #4282fa);
+    color: black;
+}
+
+  /* This is  To change the text color and background of the navigation bar */
+.wrapper2 nav{
+
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+    background-color: rgba(15, 15, 15, 0.116);
+}
+/*This is To change the size and the space between the navigation bar elements*/
+.wrapper2 nav li{
+
+    width: 160px;
+    margin: 15px;
+    padding: 15px;
+    color: honeydew;
+
+}
+
+
+  /* To change the background color, color and location of text in this page */
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d79;
+    color: white;
+  }
+  #map {
+    height: 500px;
+    /* The height is 400 pixels */
+    width: 60%;
+    /* The width is the width of the web page */
+    border-radius: 24px;
+  }
+ 
+     /*This is used to change the color and location of the copyright for this page*/
+     .F{
+      text-align:left;
+    color: #fff;
+    top:100px;
+    }
+    
+    .F{
+    
+      position: relative;
+      text-align:center;
+    }
