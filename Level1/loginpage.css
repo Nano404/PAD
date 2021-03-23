@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color:#cc2e43 ;
+    background: #232531;
+  }
+  .wrapper2{
+  
+    background-color:none;
+    text-align: right;
+    color: honeydew;
+    overflow: hidden;
+    border-radius: 24px;
+  
+    
+    
+    /*background-color: rgb(226, 21, 21);*/
+  }
+  /* This is for changing the color, text location and font size  of the navigation bar*/
+  .wrapper2 a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #5a5050a2;
+    border-radius: 24px;
+   
+    
+  
+    
+  }
+  /*This is  To change the color and background of the navigation bar text when you point to it with the mouse.*/
+  .wrapper2 a:hover{
+  
+    background: linear-gradient(-135deg, #f1552d, #4282fa);
+    color: black;
+    border-radius: 24px;
+  }
+  /* This is  To change the text color and background of the navigation bar */
+  
+  .wrapper2 nav{
+  
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+    background-color: #232531;
+    border-radius: 24px;
+    
+  }
+  
+  
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #5a5050a2;
+    text-align: center;
+    display:grid;
+    border-radius: 24px;
+  }
+  
+  .box h1{
+    color:#cc2e43 ;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1ecfc1;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color:#cc2e43;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1ecfc1;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background:linear-gradient(-135deg, #f1552d, #4282fa);
+  }
+  
+  
+  
+  .text-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  h1 {
+      font-size: 3,5vw;
+      font-weight: 3;
+      background-color: #000;
+      color: #fff;
+      display: block;
+    border-radius: 24px;
+      
+  }
+  
+  h1:nth-child(2) {
+      position: absolute;
+      background-color: #fff;
+      color: #000;
+      clip-path: inset(-1% -1% 50% -1%);
+  }
+  .F{
+    text-align:left;
+  color: #fff;
+  top:650px;
+  }
+  
+  .F{
+  
+    position: relative;
+    text-align:center;
+  }

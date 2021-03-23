@@ -6,6 +6,8 @@
     background-color: #232531;
     color: white;
     list-style-type: none;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .item1 { grid-area: navbar; }
@@ -77,12 +79,14 @@
     padding: 16px 32px;
     text-align: center;
     display: inline-block;
-    margin: 100px;
+    margin: 80px;
     cursor: pointer;
     border-radius: 10px;
 }
 .item3 img{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

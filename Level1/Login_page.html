@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َLogin</title>
+    <link rel="stylesheet" href="loginpage.css">
+  </head>
+  <body>
+    <script language="javascript">
+      function buttonSubmit() {
+          var username = document.getElementById("uname").value;
+          var password = document.getElementById("pwd").value;
+
+          if (username == "admin" && password == "CYBERSEC2021") {
+              alert("login successfully now go on");
+          } 
+          else {
+              alert("login failed");
+          }
+      }
+  </script>
+  
+<form class="box" method="post">
+  <div class="container">
+    <div class="text-box">   
+      <h1>C4pture The F14g</h1>
+      <h1>C4pture The F14g</h1>
+    </div>
+  </div>
+
+  <input type="text" id="uname" name="uname" placeholder="Username" required/>
+  <input type="text" id="pwd" name="pwd" placeholder="Password" required/>
+  <input type="submit" name="" value="Login">
+</form>
+  </body>
+</html>
