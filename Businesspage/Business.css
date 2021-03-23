@@ -1,0 +1,121 @@
+/*.item1 { grid-area: navbar; }
+.item2 { grid-area: names; }
+.item3 { grid-area: img; }
+.item4 { grid-area: about; }
+.item5 { grid-area: contact; }
+.item6 { grid-area: maps; }
+.item7 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'navbar names'
+    'img img '
+    'about about'
+    'about about'
+    'img img img'
+    'contact maps'
+    'footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: green;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Consolas;
+    font-size: 16px;
+    background-color: #232531;
+    color: white;
+    list-style-type: none;
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+}  
+.item1 { grid-area: navbar; }
+.item2 { grid-area: names; }
+.item3 { grid-area: img; }
+.item4 { grid-area: about; }
+.item5 { grid-area: challange; }
+.item6 { grid-area: contact; }
+.item7 { grid-area: maps; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'navbar names'
+    'img img'
+    'about about'
+    'challange challange'
+    'contact maps'
+    'footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+
+.item1 li {
+    display: inline;
+    float: left;
+}
+
+.item1 a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #5a5050a2;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+.item1 a:hover{
+    background: linear-gradient(-135deg, #f1552d, #4282fa);
+    color: black;
+    border-radius: 24px;
+}
+
+.item2 a{
+    float: right;
+    align-items: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #5a5050a2;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+.item3 img{
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.item6 input[type=text], textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-align: left;
+  }
