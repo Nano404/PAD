@@ -1,3 +1,3 @@
-db.user = "CTF"
-db.password = "Welkom123"
-db.database = "CTF"
+db_user = "CTF"
+db_password = "Welkom123"
+db_database = "CTF"
