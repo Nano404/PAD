@@ -1,5 +1,4 @@
 import pymysql
-import fundementals
 
 conn = pymysql.connect(
     db=fundementals.db_database,
