@@ -8,6 +8,6 @@
 
 ## Docker containers
 
-> Mariadb:latest
-> Ninoanthonie/pad:first
-> PhpMyAdmin:latest
+Mariadb:latest
+Ninoanthonie/pad:first
+PhpMyAdmin:latest
