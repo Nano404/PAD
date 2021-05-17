@@ -1,5 +1,7 @@
 # Project Agile Development(PAD)
 
+This repo is used for a school project Project agile development 
+It consists all the needed data en information to get started 
 ## Getting started
 
 1.  Pull down the repository `git clone https://gitlab.com/ic1010c5/PAD.git`
@@ -15,7 +17,7 @@
 ## Challanges
 In the following tabs we will explain what the challanges are about
 ### Challange 1 
-This challange conisist of the following:
+This challange consists of the following:
 You need to try login/find the credentials for a user
 When the credenstials are found put them into the login form
 you will get a pop-up that shows if you where successful or not
