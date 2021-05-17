@@ -1,9 +1,16 @@
 import pymysql
+import cgitb
+import cgi
+cgitb.enable()
+
+# Print necessary headers.
+print("Content-Type: text/html")
+print()
 
 conn = pymysql.connect(
-    db=fundementals.db_database,
-    user=fundementals.db_user,
-    passwd=fundementals.db_password,
+    db="pad",
+    user="pad",
+    passwd="Cybersec2021",
     host='localhost',
     port=3306)
 c = conn.cursor()
