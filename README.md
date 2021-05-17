@@ -17,7 +17,7 @@ It consists all the needed data en information to get started
 ## Challanges
 In the following tabs we will explain what the challanges are about
 ### Challange 1 
-This challange consists of the following:
+This challange consists of the following:/n
 You need to try login/find the credentials for a user
 When the credenstials are found put them into the login form
 you will get a pop-up that shows if you where successful or not
