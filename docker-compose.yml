@@ -12,7 +12,8 @@ services:
         ports:
             - 3306:3306
         environment:
-            MYSQL_ROOT_PASSWORD: W@chtw00rd123
+            MYSQL_USER: pad
+            MYSQL_PASSWORD: Cybersec2021
         volumes:
             - ./pad.sql:/docker-entrypoint-initdb.d/database.sql
 
@@ -24,8 +25,8 @@ services:
         environment:
           - PMA_ARBITRARY=1
           - PMA_HOST=db
-          - PMA_USER=root
-          - PMA_PASSWORD=W@chtw00rd123
+          - PMA_USER=pad
+          - PMA_PASSWORD=Cybersec2021
           
         
       
