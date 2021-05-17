@@ -15,9 +15,9 @@ print("Content-Type: text/html")
 print()
 
 conn = pymysql.connect(
-    db=database,
-    user=username,
-    passwd=password,
+    db="database",
+    user="username",
+    passwd="password",
     host='localhost',
     port=3306)
 c = conn.cursor()

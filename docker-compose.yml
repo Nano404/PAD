@@ -14,7 +14,7 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: W@chtw00rd123
         volumes:
-            - ./database.sql:/docker-entrypoint-initdb.d/database.sql
+            - ./pad.sql:/docker-entrypoint-initdb.d/database.sql
 
     phpmyadmin:
         image: phpmyadmin
