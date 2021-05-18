@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-Welkom op de dev-op pagina van team IC101-c5
-#Getting started
-1. Pull de Repository `git clone https://gitlab.com/ic101-c5/PAD.git`
-2. `cd` naar de challange folder waar `docker-compose.yml`
-3. run `docker-compose up`
-=======
 # Project Agile Development(PAD)
 
 This repo is used for a school project Project agile development 
@@ -34,4 +27,3 @@ Admin pages just like you might have with Wordpress wp-admin. Its your job to us
 ### Challange 3
 Change a normal user to an admin by changing the id 
 but you first need to find where and how to do that
->>>>>>> 2689a6968c99a8795a5e8193d785fe74f862cc60
