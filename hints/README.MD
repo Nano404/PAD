@@ -12,7 +12,7 @@ De pagina is te vinden op dit adres x.x.x.x/adminindex.hmtl. Hier zal je wat but
 
 ### Challange 3
 
-Nog niet helemaal compleet
+<span style="color:red">NOG NIET COMPLEET</span>.
 De challange is op te lossen door in het comment form een sql code mee te sturen waardoor de server dan alle comments en users laat zien 
 
 de code zelf bestaat uit een select statement die selecteerd uit de tabel van form_requests 
