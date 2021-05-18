@@ -1,40 +1,9 @@
-/*.item1 { grid-area: navbar; }
-.item2 { grid-area: names; }
-.item3 { grid-area: img; }
-.item4 { grid-area: about; }
-.item5 { grid-area: contact; }
-.item6 { grid-area: maps; }
-.item7 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'navbar names'
-    'img img '
-    'about about'
-    'about about'
-    'img img img'
-    'contact maps'
-    'footer footer';
-  grid-gap: 10px;
-  padding: 10px;
-  background-color: green;
-}
-
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }*/
-
-
 *{
     padding: 0;
     margin: 0;
     font-family: Consolas;
     font-size: 16px;
-    background-color: #232531;
+    background-color: #313444;
     color: white;
     list-style-type: none;
     max-height: 100%;
