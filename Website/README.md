@@ -18,7 +18,7 @@ This repo is used for a school project Project Agile Pevelopment PAD for short
 
 In the following tabs we will explain what the challanges are about
 
-### Challange 1: Bad authentication
+### Challange 1: Insecure Login Form
 
 This challange consists of the following:
 
