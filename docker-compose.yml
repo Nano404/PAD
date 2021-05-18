@@ -1,9 +1,11 @@
 version: '3.1'
 services:
     webserver:
-        image: ninoanthonie/pad:latest
+        image: httpd:latest #ninoanthonie/pad:latest
         ports:
             - 80:80
+        volumes: 
+            - ./Website/:/usr/local/apache2/htdocs
         depends_on:
             - db
     
@@ -14,6 +16,7 @@ services:
         environment:
             MYSQL_USER: pad
             MYSQL_PASSWORD: Cybersec2021
+            MARIADB_ROOT_PASSWORD: Wachtwoord123
         volumes:
             - ./pad.sql:/docker-entrypoint-initdb.d/database.sql
 
