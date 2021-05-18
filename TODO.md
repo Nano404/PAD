@@ -6,7 +6,7 @@
     #Add firewall rule(add a port to the firewall with a popup form)
 
 #Create database querys for in the database and python 
-#Find something for challange 3 
+#Create challange 3
 #Test challange 2
 #Find how to execute python code from a button✅
 #Enable CGI✅
