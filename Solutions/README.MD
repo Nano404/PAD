@@ -8,7 +8,7 @@ Zorg dat je de elementen inspecteerd je zal dan een js script zien waar in de lo
 
 ## Challange 2
 
-De pagina is te vinden op dit adres x.x.x.x/adminindex.hmtl. Hier zal je wat buttons zien die eigenlijk alleen bedoeld zijn voor de admin om te gebruiken.
+De pagina is te vinden op dit adres x.x.x.x/Install.hmtl. Hier zal je een wachtwoord aantreven 
 
 ## Challange 3
 
