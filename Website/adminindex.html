@@ -9,17 +9,23 @@
         <link rel="stylesheet" href="css/adminindex.css">
     </head>
     <body>
+        <script>
+            function check(){
+            
+            if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
+                window.location.href = "/adminindex.html";
+            }
+            }
+        </script>
         <div class="grid-container">
             <div class="nav-bar">
                 <span id="left">IC101-C5</span>
                 <span id="right">Nino, Menno, Naoufal, Thomas, Tirez</span>
             </div>
             <div class="Main-page">
-                <form method="get" action="/python/Change PSW User.php"><button class="ah">Change PSW User X</button></form>
-                <form method="get" action="/py/test.py"><button class="ha">Restart Apache2</button></form>
-                <form method="get" action="/py/test.py"><button class="ah">Ban ip xx.xx.xx</button></form>
-                <form method="get" action="/py/test.py"><button class="ha">Add Firewall Rule</button></form>
-                <form method="get" action="/py/test.py"><button class="ah">Show Logs</button></form>
+                <form method="get" action="/py/test.py"><button onclick="check()" class="ha">Restart Apache2</button></form>
+                <form method="get" action="/py/test.py"><button onclick="check()" class="ah">Ban ip xx.xx.xx</button></form>
+                <form method="get" action="/py/test.py"><button onclick="check()" class="ah">Show Comments</button></form>
             </div>
         </div>
     </body>

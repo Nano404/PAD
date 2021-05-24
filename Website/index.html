@@ -2,11 +2,16 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/index.css">
-<style>
-</style>
 </head>
 <body>
+<script>
 
+if (document.cookie.indexOf('isAdmin') !=-1) {
+} else {
+  document.cookie = "isAdmin=False";
+}
+
+</script>
 <div class="grid-container">
   <div class="item1">
     <ul>

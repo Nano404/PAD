@@ -6,7 +6,15 @@
 
 </head>
 <body>
+<script type="text/javascript">
+    function check(){
 
+        if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
+            window.location.href = "/adminindex.html";
+}
+}
+
+</script>
 <div class="grid-container">
     <div class="item1">
         <ul>
@@ -53,7 +61,7 @@
         <img src="img/google_maps.jpg">
     </div>
 </div>
-
+<button onclick="check()">Admin</button>
 </body>
 </html>
 
