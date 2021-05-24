@@ -47,8 +47,18 @@
     </div>
 
     <div class="item6">
-        <br><H1>Press the button to subcribe:</H1>
-        <button class="busbutton" href="/py/subcribe.py">subscribe</button>
+        <br><H1>Comment  </H1>
+        <form action = "/py/form_requests.py" method = "get">
+            <label>Name:</label>
+            <input name="username" type="text" placeholder="Username" id="name">
+
+            <label>Email:</label>
+            <input name="email" type="text" placeholder="Email" id="name">
+
+            <label>Comment:</label>
+            <textarea placeholder="Comment" name="comment" id="com"></textarea>
+            <input name="comment" type="submit" value="Send" id="sub">
+        </form>	
     </div>
     
     <div class="item7">
