@@ -1,0 +1,43 @@
+*{
+    background-color: #232531;
+    color: white;
+    font-family: Consolas,monaco,monospace;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat 1fr;
+    grid-template-rows: 1fr 10fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+  .nav-bar{
+    padding: 1%;
+    font-size: 30px;
+    display: inline-block;
+  }
+  .nav-bar #right{
+    float: right;
+  }
+
+  .Main-page button{
+    background-color: #15d798;
+    border-radius: 11px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    text-align:    center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.Main-page{
+    margin: auto;
+    display: inline-grid;
+    padding: 20px 20px
+}
+.Main-page form{
+  margin: auto;
+}
