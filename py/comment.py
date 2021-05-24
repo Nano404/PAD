@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Import modules for CGI handling
 import cgi, cgitb; cgitb.enable(display=1, logdir=None, context=5, format="html")
 # Print necessary headers.

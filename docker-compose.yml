@@ -6,6 +6,7 @@ services:
             - 80:80
         volumes: 
             - ./Website/:/var/www/html
+            - ./py/:/usr/lib/cgi-bin
         depends_on:
             - db
     
