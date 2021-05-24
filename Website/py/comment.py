@@ -1,7 +1,9 @@
 #!/usr/bin/python
 # Import modules for CGI handling
-import cgi, cgitb
-
+import cgi, cgitb; cgitb.enable(display=1, logdir=None, context=5, format="html")
+# Print necessary headers.
+print("Content-Type: text/html")
+print()
 # Import SQL Connector
 import mysql.connector
 # Create instance of FieldStorage
@@ -10,9 +12,9 @@ form = cgi.FieldStorage()
 # Start databate connection
 mydb = mysql.connector.connect(
   host="localhost",
-  user="root",
-  password="W@chtw00rd123",
-  database="CTF"
+  user="pad",
+  password="Cybersec2021",
+  database="pad"
 )
 
 mycursor = mydb.cursor()
