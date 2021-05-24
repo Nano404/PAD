@@ -11,13 +11,16 @@
     <body>
         <script>
             function check(){
-            
-            if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
-                window.location.href = "/adminindex.html";
+                if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
+                }
             }
+
+            if (document.cookie.indexOf('isAdmin') ==-True) {
+                alert("Congratulations! You found flag 3!");
+                } else {
             }
         </script>
-        <p>Congratulations! You found flag 3!</p>
+        
         <div class="grid-container">
             <div class="nav-bar">
                 <span id="left">IC101-C5</span>
