@@ -143,10 +143,3 @@ body{
     position: relative;
     text-align:center;
   }
-
-  .item4{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-  
