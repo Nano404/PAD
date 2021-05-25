@@ -2,6 +2,7 @@
 # Print necessary headers.
 print("Content-Type: text/html")
 print()
+
 import pymysql
 import cgitb
 import cgi
