@@ -6,3 +6,8 @@ function check(){
 }
 
 <button onclick="check()">Admin</button>
+
+if (document.cookie.indexOf('isAdmin') !=-1) {
+} else {
+  document.cookie = "isAdmin=False";
+}

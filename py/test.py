@@ -1,4 +1,7 @@
-### this is a  simple mockup of what will happen 
+#!/usr/bin/python3
+# Print necessary headers.
+print("Content-Type: text/html")
+print()
 
 import pymysql
 import cgitb
@@ -9,10 +12,6 @@ form = cgi.FieldStorage()
 comment = form.getvalue("comment")
 name = form.getvalue("name")
 email = form.getvalue("email")
-
-# Print necessary headers.
-print("Content-Type: text/html")
-print()
 
 conn = pymysql.connect(
     db="pad",

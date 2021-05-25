@@ -3,14 +3,21 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/Business.css">
-
 </head>
 <body>
+<script type="text/javascript">
+    function check(){
 
+        if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
+            window.location.href = "/adminindex.html";
+}
+}
+
+</script>
 <div class="grid-container">
     <div class="item1">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html ">Home</a></li>
             <li><a href="READMECHAL.md">Challanges Help</a></li>
             <li><a href="READMEDOCU.md">System Documentation</a></li>
         </ul>
@@ -40,23 +47,26 @@
     </div>
 
     <div class="item6">
-        <form>
+        <br><H1>Comment  </H1>
+        <form action = "py/form_request.py" method = "get">
             <label>Name:</label>
-            <input type="text" placeholder="Username" id="name">
+            <input name="username" type="text" placeholder="Username" id="name">
+
             <label>Email:</label>
-            <input type="text" placeholder="Email" id="name">
+            <input name="email" type="text" placeholder="Email" id="name">
+
             <label>Comment:</label>
             <textarea placeholder="Comment" name="comment" id="com"></textarea>
-            <input type="submit" value="Send" id="sub">
+            <input name="comment" type="submit" value="Send" id="sub">
         </form>	
     </div>
-
+    
     <div class="item7">
         <h1>Locatie</h1>
         <img src="img/google_maps.jpg">
     </div>
 </div>
-
+<button onclick="check()">Admin</button>
 </body>
 </html>
 
