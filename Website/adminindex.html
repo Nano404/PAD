@@ -27,9 +27,12 @@
                 <span id="right">Nino, Menno, Naoufal, Thomas, Tirez</span>
             </div>
             <div class="Main-page">
-                <form method="get" action="/py/test.py"><button onclick="check()" class="ha">Restart Apache2</button></form>
-                <form method="get" action="/py/test.py"><button onclick="check()" class="ah">Ban ip xx.xx.xx</button></form>
-                <form method="get" action="/py/test.py"><button onclick="check()" class="ah">Show Comments</button></form>
+                <form method="get" action="/cgi-bin/reload.py"><button onclick="check()" class="ha">Reload Apache2</button></form>
+                <form method="get" action="/cgi-bin/ipban.py">
+                    <input name="ip" type="text" placeholder="Ip" id="name">
+                    <button onclick="check()" class="ah">Ban ip</button>
+                </form>
+                <form method="get" action="/cgi-bin/test.py"><button onclick="check()" class="ah">Show error.log</button></form>
             </div>
         </div>
     </body>
