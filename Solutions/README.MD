@@ -11,8 +11,8 @@ Zorg dat je de elementen inspecteerd je zal dan een js script zien waar in de lo
 De pagina is te vinden op dit adres x.x.x.x/Install.hmtl. Hier zal je een wachtwoord aantreven 
 
 ## Challange 3
+Als je op het slotje klikt van de webpagina zal je daar een veld zien wat cookeis zegt deze heeft er 1 in staan isAdmin = false
+als je in deze veranderd naar isAdmin = True zal je toegang krijgen tot de knoppen op de admin page
 
-<span style="color:red">NOG NIET COMPLEET</span>.
-De challange is op te lossen door in het comment form een sql code mee te sturen waardoor de server dan alle comments en users laat zien
-
-de code zelf bestaat uit een select statement die selecteerd uit de tabel van form_requests
+## Challange 4 (Extra)
+SQL injection in de comment form als je 1=1 invult zal je wss alle comments moeten in kunnen zien

@@ -11,7 +11,7 @@ This repo is used for a school project Project Agile Pevelopment PAD for short
 ## Docker containers Used
 
 - mariadb:latest
-- ninoanthonie/pad:first
+- ninoanthonie/pad:latest
 - phpmyadmin:latest
 
 ## Challanges
@@ -26,22 +26,23 @@ You need to try login/find the credentials for a user. When the credenstials are
 
 ### Challange 2: URL Manipulation
 
-Admin pages just like you might have with Wordpress wp-admin. Its your job to use whatever your capable of to find the page. this can be just by trying different urls or by using tools specified for this purpose
+Sites laten soms bij een installatie bestanden achter zonder te verwijderen. 
+Hier kan je soms waardevolle informatie uithalen
 
 ### Challange 3: Cookie Manipulation
 
-Change a normal user to an admin by changing the id
-but you first need to find where and how to do that
+A website can use cookies to check if your an admin or not 
 
 ## Documentatie
 
 Programs: Apache2, python3, mariadb-server, modcgi, docker, docker-compose
 Problems: 
-- Python code wouw niet exec dit kwam omdat hij een crlf(win-files) was dit moest naar LF(unix)
+- Python code wouw niet exec dit kwam omdat hij een CRLF(win-files) was dit moest naar LF(unix)
 - httpd prebuilt container kreeg cgi niet aan de praat uiteindelijk zelf een docker container gebouwd zie Dockerfile
 - De cookies en python deze kregen we alleen werkend met 2 simpele javascripts
-Locaties: 
+Directorys: 
 - /var/www/html/
-- /usr/lib/cgi-bin
+- /usr/lib/cgi-bin/
+- /etc/apache2/sites-enabled/000-default.conf
 
-
+### Docker

@@ -6,4 +6,3 @@ import os
 restart = "/etc/init.d/apache2 reload > /dev/null"
 os.system(restart)
 print("Apache reloading")
- 
