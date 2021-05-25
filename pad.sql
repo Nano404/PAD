@@ -21,6 +21,7 @@ SET time_zone = "+00:00";
 -- Database: `pad`
 --
 CREATE DATABASE IF NOT EXISTS `pad` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, INDEX, DROP, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES ON pad.* TO 'pad'@'%';
 USE `pad`;
 
 -- --------------------------------------------------------
