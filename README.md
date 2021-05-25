@@ -32,3 +32,16 @@ Admin pages just like you might have with Wordpress wp-admin. Its your job to us
 
 Change a normal user to an admin by changing the id
 but you first need to find where and how to do that
+
+## Documentatie
+
+Programs: Apache2, python3, mariadb-server, modcgi, docker, docker-compose
+Problems: 
+- Python code wouw niet exec dit kwam omdat hij een crlf(win-files) was dit moest naar LF(unix)
+- httpd prebuilt container kreeg cgi niet aan de praat uiteindelijk zelf een docker container gebouwd zie Dockerfile
+- De cookies en python deze kregen we alleen werkend met 2 simpele javascripts
+Locaties: 
+- /var/www/html/
+- /usr/lib/cgi-bin
+
+
