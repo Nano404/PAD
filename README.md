@@ -45,6 +45,32 @@ Directorys:
 - /usr/lib/cgi-bin/
 - /etc/apache2/sites-enabled/000-default.conf
 
+### Database Structuur
+
+Database naam: pad
+
+- **form_requests**
+   _idform_requests_ int(11),
+   _form_comment_ mediumtext,
+   _form_email_ varchar(45),
+   _form_name_ varchar(45)
+- **ip**
+    _id_ int(11),
+    _ip_ int(11)
+- **login**
+    _id_ int(11),
+    _username_ varchar(45),
+    _password_ varchar(45),
+    _user_id_ int(11)
+- **rollen**
+    _id_ int(11),
+    _rol_naam_ varchar(45)
+- **user**
+    _id_ int(11),
+    _rol_ varchar(45),
+    _email_ varchar(45)
+
+
 ### Docker
 
 
