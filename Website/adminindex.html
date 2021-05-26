@@ -10,14 +10,14 @@
     </head>
     <body>
         <script>
+
+            if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
+                alert("Congratulations you have found flag 3!")
+            }
+
             function check(){
                 if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
                 }
-            }
-
-            if (document.cookie.indexOf('isAdmin') ==-True) {
-                alert("Congratulations! You found flag 3!");
-                } else {
             }
         </script>
         
