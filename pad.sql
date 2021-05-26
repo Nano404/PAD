@@ -21,6 +21,10 @@ SET time_zone = "+00:00";
 -- Database: `pad`
 --
 
+CREATE DATABASE IF NOT EXISTS `pad` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, INDEX, DROP, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES ON pad.* TO 'pad'@'%';
+USE `pad`;
+
 -- --------------------------------------------------------
 
 --
@@ -118,6 +122,18 @@ INSERT INTO `user` (`id`, `rol`, `email`) VALUES
 (1, 'user', 'henk@gmail.com'),
 (2, 'admin', 'admin@ctf.nl'),
 (3, 'user', 'test@test.nl');
+
+--
+-- Dumping data for table `form_requests`
+--
+
+INSERT INTO `form_requests` (`idform_requests`, `form_comment`, `form_email`, `form_name`) VALUES
+(1, 'This is a test comment', 'Mill@gmail.com', 'Mill'),
+(2, 'Lorem Ipsum', 'Garry@outlook.com', 'Garry'),
+(3, 'HvA The best', 'Marvin@protonmail.com', 'Marvin'),
+(4, 'You have been hacked', 'Hackerman@aefefsef@gmail.com', 'Sir. Hackerman');
+
+
 
 --
 -- Constraints for dumped tables
