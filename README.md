@@ -48,7 +48,7 @@ Directorys:
 ### Docker
 
 
-## Python Scripts:
+## Python Scripts
 
 ### Ip Ban
 
