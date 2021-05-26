@@ -1,7 +1,6 @@
 # Write Python scripts
-    - Ban ip?
-    - Cookie Reader
+    -IP table in de database
     
-
 # side challange 
     - SQL injetion om alle comment opgeslagen te zien?
+    - Comments in de sql file
