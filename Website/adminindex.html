@@ -14,11 +14,7 @@
             if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
                 alert("Congratulations you have found flag 3!")
             }
-
-            function check(){
-                if (document.cookie.split(';').some((item) => item.includes('isAdmin=True'))) {
-                }
-            }
+            
         </script>
         
         <div class="grid-container">
@@ -27,12 +23,11 @@
                 <span id="right">Nino, Menno, Naoufal, Thomas, Tirez</span>
             </div>
             <div class="Main-page">
-                <form method="get" action="/cgi-bin/reload.py"><button onclick="check()" class="ha">Reload Apache2</button></form>
+                <form method="get" action="/cgi-bin/reload.py"><button class="ha">Reload Apache2</button></form>
                 <form method="get" action="/cgi-bin/ipban.py">
                     <input name="ip" type="text" placeholder="Ip" id="name">
-                    <button onclick="check()" class="ah">Ban ip</button>
+                    <button class="ah">Ban ip</button>
                 </form>
-                <form method="get" action="/cgi-bin/test.py"><button onclick="check()" class="ah">Show error.log</button></form>
             </div>
         </div>
     </body>

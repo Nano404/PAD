@@ -40,6 +40,7 @@ Problems:
 - Python code wilde niet exec dit kwam omdat hij een CRLF(win-files) was dit moest naar LF(unix)
 - httpd prebuilt container kreeg cgi niet aan de praat uiteindelijk zelf een docker container gebouwd zie Dockerfile
 - De cookies en python deze kregen we alleen werkend met 2 simpele javascripts
+- CGITB liet geen errors zien hij moet blijkbaar echt helemaal boven in het document staan
 Directorys: 
 - /var/www/html/
 - /usr/lib/cgi-bin/
@@ -76,21 +77,22 @@ Database naam: pad
 
 ### Ip Ban
 
-- /py/ipban.py
+- /cgi/ipban.py
 
 Bij de exec van dit bestand wordt het Ip gebanned van een specifieke user
 
-### Cookie
-
-- /py/Cookie.py
-
-Dit script checked of de user een admin is door de cookie `isAdmin` te checken op `true` of `false`
-Als de user geen admin is wordt er `false` aangegeven in de cookie, dan is de pagina dus niet toegankelijk. Als  er `true` wordt aangegeven heeft de user toegang tot de pagina.
-
 ### Restart Apache
 
-- /py/reload.py
+- /cgi/reload.py
 
 Bij het runnen van dit script wordt de Apache gerestart.
 
 ### Log
+/cgi/log.py
+
+laat de error logs zien van de website
+
+### form_request
+-/cgi/form_request.py
+
+Als deze wordt uitgevoert na het verzenden van je comment/email alles toevoegen aan de database en daarna het bericht terug lezen
