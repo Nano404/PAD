@@ -8,28 +8,28 @@ Deze repo wordt gebruikt voor een school project genaamd Agile Development a.k.a
 2. Gebruik `cd` om in de map te komen van het opgehaalde bestand
 3. Run de container door `docker-compuse up` te gebruiken 
 
-## Docker containers Used
+## Docker containers gebruikt
 
-- mariadb:latest
-- ninoanthonie/pad:latest
-- phpmyadmin:latest
+- mariadb:laatste
+- ninoanthonie/pad:laatste
+- phpmyadmin:laatste
 
-## Challanges
+## Challenges
 
 In de volgende tabs worden de challenges uitgelegd
 
-### Challange 1: Insecure Login Form
+### Challenge 1: Insecure Login Form
 
 Deze challenge bevat het volgende:
 
 Je moet proberen de inlog gegevens van een user te vinden. Wanneer deze gevonden zijn kan je bij het login form de gegevens in vullen. Na een succesvolle inlog poging komt er een pop-up dat laat zien dat je succesvol ingelogd bent.
 
-### Challange 2: URL Manipulation
+### Challenge 2: URL Manipulation
 
 Sites laten soms bij een installatie bestanden achter zonder te verwijderen. 
 Hier kan je soms waardevolle informatie uithalen...
 
-### Challange 3: Cookie Manipulation
+### Challenge 3: Cookie Manipulation
 
 Een website kan cookies gebruiken of je een admin bent of niet.
 
