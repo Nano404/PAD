@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 17, 2021 at 08:40 AM
+-- Generation Time: May 26, 2021 at 11:05 AM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -20,9 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `pad`
 --
-CREATE DATABASE IF NOT EXISTS `pad` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, INDEX, DROP, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES ON pad.* TO 'pad'@'%';
-USE `pad`;
 
 -- --------------------------------------------------------
 
@@ -38,6 +35,19 @@ CREATE TABLE IF NOT EXISTS `form_requests` (
   `form_name` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`idform_requests`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ip`
+--
+
+DROP TABLE IF EXISTS `ip`;
+CREATE TABLE IF NOT EXISTS `ip` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ip` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
