@@ -47,6 +47,30 @@ Directorys:
 
 ### Docker
 
+### Database Structuur
+
+Database naam: pad
+
+- **form_requests**
+   _idform_requests_ int(11),
+   _form_comment_ mediumtext,
+   _form_email_ varchar(45),
+   _form_name_ varchar(45)
+- **ip**
+    _id_ int(11),
+    _ip_ int(11)
+- **login**
+    _id_ int(11),
+    _username_ varchar(45),
+    _password_ varchar(45),
+    _user_id_ int(11)
+- **rollen**
+    _id_ int(11),
+    _rol_naam_ varchar(45)
+- **user**
+    _id_ int(11),
+    _rol_ varchar(45),
+    _email_ varchar(45)
 
 ## Python Scripts
 
@@ -55,3 +79,18 @@ Directorys:
 - /py/ipban.py
 
 Bij de exec van dit bestand wordt het Ip gebanned van een specifieke user
+
+### Cookie
+
+- /py/Cookie.py
+
+Dit script checked of de user een admin is door de cookie `isAdmin` te checken op `true` of `false`
+Als de user geen admin is wordt er `false` aangegeven in de cookie, dan is de pagina dus niet toegankelijk. Als  er `true` wordt aangegeven heeft de user toegang tot de pagina.
+
+### Restart Apache
+
+- /py/reload.py
+
+Bij het runnen van dit script wordt de Apache gerestart.
+
+### Log
