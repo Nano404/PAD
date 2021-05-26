@@ -52,4 +52,4 @@ Directorys:
 
 - /py/ipban.py
 
-Bij de exec van dit bestand wordt het iP gebanned van een specifieke user
+Bij de exec van dit bestand wordt het Ip gebanned van een specifieke user
