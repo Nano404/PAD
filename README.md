@@ -94,3 +94,5 @@ Als de user geen admin is wordt er `false` aangegeven in de cookie, dan is de pa
 - /py/reload.py
 
 Bij het runnen van dit script wordt de Apache gerestart.
+
+### Log
