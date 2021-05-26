@@ -1,12 +1,12 @@
 # Project Agile Development(PAD)
 
-This repo is used for a school project Project Agile Pevelopment PAD for short
+Deze repo wordt gebruikt voor een school project genaamd Agile Development a.k.a PAD in het kort
 
-## Getting started
+## Starten
 
-1. Pull down the repository `git clone https://gitlab.com/ic1010c5/PAD.git`
-2. `cd` into the directory where `docker-compose.yml` is
-3. to run the container `docker-compose up`
+1. Haal de bestanden op via `git clone https://gitlab.com/ic1010c5/PAD.git`
+2. Gebruik `cd` om in de map te komen van het opgehaalde bestand
+3. Run de container door `docker-compuse up` te gebruiken 
 
 ## Docker containers Used
 
@@ -16,22 +16,22 @@ This repo is used for a school project Project Agile Pevelopment PAD for short
 
 ## Challanges
 
-In the following tabs we will explain what the challanges are about
+In de volgende tabs worden de challenges uitgelegd
 
 ### Challange 1: Insecure Login Form
 
-This challange consists of the following:
+Deze challenge bevat het volgende:
 
-You need to try login/find the credentials for a user. When the credenstials are found put them into the login form, you will get a pop-up that shows if you where successful or not.
+Je moet proberen de inlog gegevens van een user te vinden. Wanneer deze gevonden zijn kan je bij het login form de gegevens in vullen. Na een succesvolle inlog poging komt er een pop-up dat laat zien dat je succesvol ingelogd bent.
 
 ### Challange 2: URL Manipulation
 
 Sites laten soms bij een installatie bestanden achter zonder te verwijderen. 
-Hier kan je soms waardevolle informatie uithalen
+Hier kan je soms waardevolle informatie uithalen...
 
 ### Challange 3: Cookie Manipulation
 
-A website can use cookies to check if your an admin or not 
+Een website kan cookies gebruiken of je een admin bent of niet.
 
 ## Documentatie
 
