@@ -88,11 +88,13 @@ Bij de exec van dit bestand wordt het Ip gebanned van een specifieke user
 Bij het runnen van dit script wordt de Apache gerestart.
 
 ### Log
-/cgi/log.py
+
+- /cgi/log.py
 
 laat de error logs zien van de website
 
 ### form_request
--/cgi/form_request.py
+
+- /cgi/form_request.py
 
 Als deze wordt uitgevoert na het verzenden van je comment/email alles toevoegen aan de database en daarna het bericht terug lezen
