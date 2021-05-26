@@ -37,7 +37,7 @@ A website can use cookies to check if your an admin or not
 
 Programs: Apache2, python3, mariadb-server, modcgi, docker, docker-compose
 Problems: 
-- Python code wouw niet exec dit kwam omdat hij een CRLF(win-files) was dit moest naar LF(unix)
+- Python code wilde niet exec dit kwam omdat hij een CRLF(win-files) was dit moest naar LF(unix)
 - httpd prebuilt container kreeg cgi niet aan de praat uiteindelijk zelf een docker container gebouwd zie Dockerfile
 - De cookies en python deze kregen we alleen werkend met 2 simpele javascripts
 Directorys: 
@@ -46,3 +46,10 @@ Directorys:
 - /etc/apache2/sites-enabled/000-default.conf
 
 ### Docker
+
+
+### Ip Ban
+
+- /py/ipban.py
+
+Bij de exec van dit bestand wordt het iP gebanned van een specifieke user
