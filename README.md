@@ -45,6 +45,8 @@ Directorys:
 - /usr/lib/cgi-bin/
 - /etc/apache2/sites-enabled/000-default.conf
 
+### Docker
+
 ### Database Structuur
 
 Database naam: pad
@@ -69,10 +71,6 @@ Database naam: pad
     _id_ int(11),
     _rol_ varchar(45),
     _email_ varchar(45)
-
-
-### Docker
-
 
 ## Python Scripts
 
