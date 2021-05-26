@@ -81,3 +81,16 @@ Database naam: pad
 - /py/ipban.py
 
 Bij de exec van dit bestand wordt het Ip gebanned van een specifieke user
+
+### Cookie
+
+- /py/Cookie.py
+
+Dit script checked of de user een admin is door de cookie `isAdmin` te checken op `true` of `false`
+Als de user geen admin is wordt er `false` aangegeven in de cookie, dan is de pagina dus niet toegankelijk. Als  er `true` wordt aangegeven heeft de user toegang tot de pagina.
+
+### Restart Apache
+
+- /py/reload.py
+
+Bij het runnen van dit script wordt de Apache gerestart.
